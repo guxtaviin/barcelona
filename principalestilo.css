@@ -1,0 +1,51 @@
+
+
+h1 {
+
+    color: white;
+
+}
+p {
+    color: wheat;
+}
+li {
+    color: white;
+}
+
+nav {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: 800px;
+
+}
+
+nav li {
+    display: inline-block;
+    background-color: red ;
+    padding: 10px;
+    margin: 2px;
+    transition: 1s;
+}
+
+nav li:hover {
+    background-color: blue;
+
+}
+
+nav a {
+    color: antiquewhite;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    color: antiquewhite;
+    text-decoration: underline;
+}
+
